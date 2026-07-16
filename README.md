@@ -31,22 +31,14 @@ project/
 2. **Install dependencies**
    ```
    npm install
-   ```
 
-3. **Check your `.env` file** (already included, edit if needed)
-   ```
-   PORT=5000
-   MONGO_URI=mongodb://127.0.0.1:27017/authApp
-   JWT_SECRET=mySuperSecretKey123
-   ```
-
-4. **Run the server**
+3. **Run the server**
    ```
    npm run dev
    ```
    (or `npm start` if you don't have nodemon)
 
-5. **Open in browser**
+4. **Open in browser**
    ```
    http://localhost:5000/login.html
    http://localhost:5000/register.html
